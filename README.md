@@ -1,6 +1,6 @@
 # Chat-App
 
-> My solid Nuxt.js project
+> Simple Chat App Using Nuxt + Vuex + Vuetify
 
 ## Build Setup
 
