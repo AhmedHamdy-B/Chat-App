@@ -1,6 +1,6 @@
 <template>
   <div >
-    <v-toolbar >
+    <v-toolbar>
       <v-toolbar-title><nuxt-link to="/"> Chat App</nuxt-link></v-toolbar-title>
 
       <v-spacer></v-spacer>
@@ -11,7 +11,7 @@
         <v-btn text v-if="!$store.state.name"><nuxt-link to="/login"> Login</nuxt-link></v-btn>
         <v-btn text v-if="$store.state.name" @click="logout()"><nuxt-link to="/"> Logout</nuxt-link></v-btn>
          <v-btn text v-if="$store.state.name"><nuxt-link to="/chat"> Chat</nuxt-link></v-btn>
-        <v-btn text><nuxt-link to="/reciever"> Reciever</nuxt-link></v-btn>
+        <!-- <v-btn text><nuxt-link to="/reciever"> Reciever</nuxt-link></v-btn> -->
       </v-toolbar-items>
 
       

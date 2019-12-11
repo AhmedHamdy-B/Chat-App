@@ -1,6 +1,7 @@
 export const state = () => ({
     name: null,
-    status: true,
+    status1: false,
+    status2: true,
     token:null,
     chat:[]
   });
@@ -24,8 +25,11 @@ export const state = () => ({
     SET_CHAT: (state, chat) => {
         state.chat.push(chat);
       },
-      SET_STATUS: (state, status) => {
-        state.status = status
+      SET_STATUS_SENDER: (state, status) => {
+        state.status1 = status
+      },
+      SET_STATUS_RECIEVER: (state, status) => {
+        state.status2 = status
       },
       CHANGE_STATUS:  (state) =>{
           if(state.status == true)
