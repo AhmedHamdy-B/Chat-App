@@ -1,4 +1,4 @@
-# Chat-App
+# Chat-App asdasd
 
 > Simple Chat App Using Nuxt + Vuex + Vuetify
 
